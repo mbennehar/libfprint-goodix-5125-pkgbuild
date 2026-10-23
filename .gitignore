@@ -1,0 +1,16 @@
+# Arch Linux package build outputs
+*.pkg.tar.*
+*.pkg.tar.zst
+
+# makepkg directories
+pkg/
+src/
+goodix-27c6-5125/
+
+# Build and temporary files
+build/
+build-chicago/
+*.log
+*.orig
+*.rej
+

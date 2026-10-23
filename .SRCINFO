@@ -1,0 +1,29 @@
+pkgbase = libfprint-goodix-5125-git
+	pkgdesc = Library for fingerprint readers with Goodix 27c6:5125 sensor support
+	pkgver = 3.0.0.r916.g595320a
+	pkgrel = 1
+	url = https://github.com/sorguido/goodix-27c6-5125
+	arch = x86_64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	makedepends = glib2-devel
+	makedepends = gobject-introspection
+	makedepends = meson
+	makedepends = ninja
+	makedepends = python-cairo
+	makedepends = python-gobject
+	makedepends = systemd
+	depends = glib2
+	depends = glibc
+	depends = libgcc
+	depends = libgudev
+	depends = libgusb
+	depends = openssl
+	depends = pixman
+	provides = libfprint=3.0.0.r916.g595320a
+	provides = libfprint-2.so
+	conflicts = libfprint
+	source = goodix-27c6-5125::git+https://github.com/sorguido/goodix-27c6-5125.git
+	sha256sums = SKIP
+
+pkgname = libfprint-goodix-5125-git
