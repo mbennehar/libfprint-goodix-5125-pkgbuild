@@ -69,10 +69,11 @@ To publish this package to the Arch User Repository (AUR):
    git push origin master
    ```
 
-## Disclaimer & AI Attribution
+## Disclaimer & Disclosure
 
-This packaging recipe (`PKGBUILD`), build automation, and setup documentation were created with the assistance of an AI coding agent (**Google DeepMind's Antigravity / Gemini**) and tested/verified on physical hardware running Arch Linux / CachyOS with a Goodix 27c6:5125 sensor.
-
-* Upstream driver credits: [Berke Kabagöz and Guido Soranzio (`sorguido/goodix-27c6-5125`)](https://github.com/sorguido/goodix-27c6-5125).
-* This repository is provided as-is without warranty.
+* **Personal Use:** This package was created and is maintained primarily for personal use.
+* **Tested on Real Hardware:** The package has been built, installed, and verified on physical hardware running Arch Linux / CachyOS equipped with a Goodix USB `27c6:5125` sensor.
+* **No Warranty:** This repository is provided "as-is", without warranty of any kind, express or implied. Use it at your own risk.
+* **AI Attribution:** The `PKGBUILD` packaging recipe, build automation, and documentation were created with the assistance of an AI coding agent (**Google DeepMind's Antigravity / Gemini**).
+* **Upstream Credits:** Driver development and reverse-engineering credits belong to [Berke Kabagöz and Guido Soranzio (`sorguido/goodix-27c6-5125`)](https://github.com/sorguido/goodix-27c6-5125).
 

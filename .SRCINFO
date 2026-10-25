@@ -23,7 +23,7 @@ pkgbase = libfprint-goodix-5125-git
 	provides = libfprint=3.0.0.r916.g595320a
 	provides = libfprint-2.so
 	conflicts = libfprint
-	source = goodix-27c6-5125::git+https://github.com/sorguido/goodix-27c6-5125.git
+	source = goodix-27c6-5125::git+https://github.com/sorguido/goodix-27c6-5125.git#commit=595320ad2c85fe858040d20eb5016924fd29b11c
 	sha256sums = SKIP
 
 pkgname = libfprint-goodix-5125-git

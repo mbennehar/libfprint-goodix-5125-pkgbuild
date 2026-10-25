@@ -4,6 +4,7 @@
 
 pkgname=libfprint-goodix-5125-git
 _pkgname=libfprint
+_commit=595320ad2c85fe858040d20eb5016924fd29b11c
 pkgver=3.0.0.r916.g595320a
 pkgrel=1
 pkgdesc="Library for fingerprint readers with Goodix 27c6:5125 sensor support"
@@ -34,7 +35,7 @@ provides=(
   'libfprint-2.so'
 )
 conflicts=('libfprint')
-source=("goodix-27c6-5125::git+https://github.com/sorguido/goodix-27c6-5125.git")
+source=("goodix-27c6-5125::git+https://github.com/sorguido/goodix-27c6-5125.git#commit=$_commit")
 sha256sums=('SKIP')
 
 pkgver() {
