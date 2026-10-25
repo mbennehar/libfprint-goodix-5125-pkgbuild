@@ -1,4 +1,4 @@
-# libfprint-goodix-5125-git (AUR Package)
+# libfprint-goodix-5125-git (Arch Linux / CachyOS PKGBUILD)
 
 Arch Linux / CachyOS package for `libfprint` with native driver support for the **Goodix USB 27c6:5125** fingerprint reader (commonly found on Huawei MateBook and Honor MagicBook laptops).
 
@@ -53,26 +53,10 @@ This compiles:
      ```
    - For SDDM / Plasma / GDM, see the Arch Wiki guide: https://wiki.archlinux.org/title/Fprint
 
-## Publishing to AUR
-
-To publish this package to the Arch User Repository (AUR):
-
-1. Clone your AUR repository once registered on https://aur.archlinux.org:
-   ```bash
-   git clone ssh://aur@aur.archlinux.org/libfprint-goodix-5125-git.git
-   ```
-2. Copy `PKGBUILD` and `.SRCINFO` into that repository.
-3. Commit and push:
-   ```bash
-   git add PKGBUILD .SRCINFO
-   git commit -m "Initial commit for libfprint-goodix-5125-git"
-   git push origin master
-   ```
-
 ## Disclaimer & Disclosure
 
 * **Personal Use:** This package was created and is maintained primarily for personal use.
-* **Tested on Real Hardware:** The package has been built, installed, and verified on physical hardware running Arch Linux / CachyOS equipped with a Goodix USB `27c6:5125` sensor.
+* **Tested on Real Hardware:** The package has been built, installed, and verified on a **Huawei MateBook X Pro (MACHD-WXX9)** running Arch Linux / CachyOS equipped with the Goodix USB `27c6:5125` sensor.
 * **No Warranty:** This repository is provided "as-is", without warranty of any kind, express or implied. Use it at your own risk.
 * **AI Attribution:** The `PKGBUILD` packaging recipe, build automation, and documentation were created with the assistance of an AI coding agent (**Google DeepMind's Antigravity / Gemini**).
 * **Upstream Credits:** Driver development and reverse-engineering credits belong to [Berke Kabagöz and Guido Soranzio (`sorguido/goodix-27c6-5125`)](https://github.com/sorguido/goodix-27c6-5125).
